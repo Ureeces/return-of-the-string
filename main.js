@@ -31,12 +31,9 @@ function yellLouder(s) {
 
 function getInitials(s) {
   let space = s.indexOf(' ');
-  space;
   return s[0].toUpperCase() + '.' + s[space + 1].toUpperCase() + '.';
 }
 
-let test = getInitials('ulysses');
-test;
 
 
 
