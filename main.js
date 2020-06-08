@@ -1,8 +1,42 @@
 /*******************
  * YOUR CODE HERE! *
  *******************/
+function yell(s) {
+  return s + '!';
+}
 
+function getFirstCharacter(s) {
+  return s[0];
+}
 
+function getLastCharacter(s) {
+  return s[s.length - 1];
+}
+
+function getOneCharacter(s, n) {
+  return s[n];
+}
+
+function getTwoCharacters(s, n, i) {
+  return s[n] + s[i];
+}
+
+function makeCapitalized(s) {
+  return s.toUpperCase();
+}
+
+function yellLouder(s) {
+  return s.toUpperCase() + '!!!';
+}
+
+function getInitials(s) {
+  let space = s.indexOf(' ');
+  space;
+  return s[0].toUpperCase() + '.' + s[space + 1].toUpperCase() + '.';
+}
+
+let test = getInitials('ulysses');
+test;
 
 
 
